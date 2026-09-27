@@ -253,6 +253,7 @@
   .letter-screen { place-items: start center; }
   .letter-page { width: 96vw; min-height: 88vh; aspect-ratio: auto; padding-inline: 1.8rem; }
   .letter-body { max-height: 55vh; }
+  .star-one { left: 4%; }
   .star-two { right: 4%; }
 }
 
