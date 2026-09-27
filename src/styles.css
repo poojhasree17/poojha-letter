@@ -220,8 +220,12 @@
 .birthday-kicker { margin: 0; color: var(--crimson); font-family: var(--font-script); font-size: clamp(1.5rem, 3vw, 2.3rem); }
 .letter-heading h1 { margin: -.15rem 0 0; font-family: var(--font-script); font-size: clamp(2.5rem, 6vw, 5rem); line-height: 1; font-weight: 700; }
 .letter-date { margin: .45rem 0 0; font-size: clamp(.95rem, 1.7vw, 1.2rem); font-style: italic; }
-.letter-body { max-width: 52rem; min-height: clamp(10rem, 25vh, 16rem); margin: clamp(1.5rem, 4vh, 3rem) auto 0; font-size: clamp(1.15rem, 2vw, 1.5rem); line-height: 1.75; text-align: left; }
-.letter-body p { margin: 0; }
+.letter-body { max-width: 52rem; min-height: clamp(8rem, 18vh, 12rem); max-height: min(40vh, 24rem); overflow-y: auto; margin: clamp(1.2rem, 3vh, 2.4rem) auto 0; padding-right: .55rem; font-size: clamp(1.05rem, 1.7vw, 1.3rem); line-height: 1.75; text-align: left; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: var(--gold-dark) transparent; }
+.letter-body p { margin: 0 0 1.1em; }
+.letter-body p:last-child { margin-bottom: 0; }
+.letter-body::-webkit-scrollbar { width: 7px; }
+.letter-body::-webkit-scrollbar-track { background: transparent; }
+.letter-body::-webkit-scrollbar-thumb { background: var(--gold-dark); border-radius: 999px; }
 .sign-off { margin: 1rem 2% 0 auto; text-align: right; color: var(--crimson-dark); font-family: var(--font-script); font-size: clamp(1.6rem, 3vw, 2.5rem); }
 .tape { position: absolute; z-index: 2; top: 2%; width: clamp(6rem, 16vw, 11rem); height: clamp(1.7rem, 3.5vw, 2.6rem); opacity: .9; }
 .tape-gold { left: 2%; transform: rotate(-9deg); background: repeating-linear-gradient(135deg, var(--gold) 0 12px, var(--paper-deep) 12px 22px); }
@@ -248,6 +252,7 @@
   .envelope-button { width: min(62vw, 19rem); }
   .letter-screen { place-items: start center; }
   .letter-page { width: 96vw; min-height: 88vh; aspect-ratio: auto; padding-inline: 1.8rem; }
+  .letter-body { max-height: 55vh; }
   .star-one { left: 4%; }
   .star-two { right: 4%; }
 }

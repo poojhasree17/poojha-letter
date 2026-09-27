@@ -69,7 +69,7 @@ function BirthdayExperience() {
               <RansomWord letters={birthdayLetters} label="Birthday" />
             </div>
             <div className="cover-notes">
-              <p>[Without you I'm nothing]</p>
+              <p>[I'm nothing without your love]</p>
               <p>                                                                                                                                                                                                                                                                [from your loving child]</p>
             </div>
           </div>
@@ -107,13 +107,19 @@ function BirthdayExperience() {
             <svg className="squiggle" viewBox="0 0 150 35" aria-hidden="true"><path d="M3 23c13-25 25 17 39-3s24 15 39-2 23 15 35-1 21 4 31-9" /></svg>
             <header className="letter-heading">
               <p className="birthday-kicker">happy birthday</p>
-              <h1>[Mom's Name]</h1>
+              <h1>MAA</h1>
               <p className="letter-date">28 September 2026</p>
             </header>
             <div className="letter-body">
-              <p>[Write your birthday letter here...]</p>
+              <p>Happy Birthday Maa. Let's hope you stay long as much as I stay in this world. Not to make you sad, but it's true that I'm living because I don't know how you gonna make it alive without me. Don't be sad.</p>
+              <p>I don't know what to speak but one thing is sure even though I'm not expressive person like Thamizh, but I still love you too. Maybe not more than her, but I do. Yeah, I love you❤️ in my own way. I love you in a way I can't express to the world. And then, what can I say? It kinda feels weird to open up to you by a letter. I know I should have done it before but like I said I don't know how to talk with you and daddy without stressing myself for a week before.</p>
+              <p>I'm struck by lot of things happening in my life but I'm still fighting because Thendral Prakash raised no coward. Maybe, some days I may feel lost but I'm still loved by you guys forever. So that forever feels more important than that some days.</p>
+              <p>I don't know if anyone told you this, but I'm telling you that I'm so proud of the way you fought against this world, work hard to make us shine on this dark society. I know half of the credits goes to daddy, but still you did your part very awesome.</p>
+              <p>And don't stress over yourself for me, I'm struggling but I'm gonna live great in a way I ever dreamt of. So don't worry about me. I know that for sure. Also a big thanks for giving birth to this two girls who are gonna turn into a fine woman one day! A big sorry for the things I didn't mean to do so.</p>
+              <p>Every day will turn into a fine day, everything will turn into the things we worked for. Even in the other parts of the universe, I would still want to be the daughter of you and daddy. Be happy as much you can because you also gonna live once. So live for yourself more than you do for others. Nothing gonna hurt us.</p>
+              <p>Maybe, I'm not a good daughter but I'm glad I'm still <em>Your Daughter</em>. Once again, Love you and Happy birthday Maa! Let's live happy!</p>
             </div>
-            <p className="sign-off">with all my love</p>
+            <p className="sign-off">with love from Poojha🤎</p>
           </article>
         </section>
       )}
