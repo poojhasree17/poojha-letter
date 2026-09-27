@@ -69,8 +69,8 @@ function BirthdayExperience() {
               <RansomWord letters={birthdayLetters} label="Birthday" />
             </div>
             <div className="cover-notes">
-              <p>[Without yI'm nothing]</p>
-              <p>[from your loving child]</p>
+              <p>[Without you I'm nothing]</p>
+              <p>                                                                                                                                                                                                                                                                [from your loving child]</p>
             </div>
           </div>
           <span className="continue-hint">tap anywhere to continue <span aria-hidden="true">→</span></span>
