@@ -70,7 +70,6 @@ function BirthdayExperience() {
             </div>
             <div className="cover-notes">
               <p>[I'm nothing without your love]</p>
-              <p>                                                                                                                                                                                                                                                                [from your loving child]</p>
             </div>
           </div>
           <span className="continue-hint">tap anywhere to continue <span aria-hidden="true">→</span></span>
