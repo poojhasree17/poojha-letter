@@ -69,7 +69,7 @@ function BirthdayExperience() {
               <RansomWord letters={birthdayLetters} label="Birthday" />
             </div>
             <div className="cover-notes">
-              <p>[Without I'm nothing]</p>
+              <p>[Without yI'm nothing]</p>
               <p>[from your loving child]</p>
             </div>
           </div>
